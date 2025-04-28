@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+    <meta name="description" content="Site Winter is Coming - [adicione uma descrição breve]"> 
+    
+    <link rel="icon" href="favicon/favicon.ico" type="image/x-icon">
+    
+    <link rel="stylesheet" href="style-base.css">          <!-- Estilos gerais -->
+    <link rel="stylesheet" href="style-cabecalho.css"> 
+    <link rel="stylesheet" href="style-secoes.css">        
+    <link rel="stylesheet" href="style-servicos.css">      
+    <link rel="stylesheet" href="style-projetos.css">    
+    <link rel="stylesheet" href="style-formulario.css">   
+    <link rel="stylesheet" href="style-rodape.css">     
+    
+    <title>Torres Sites Personalizados</title>
+  </head>
+<body>
+
+  <header class="cabecalho" aria-label="Cabeçalho principal">
+    <div class="container">
+      <h1 aria-label="Lucas Torres">Lucas Torres</h1>
+      <nav class="menu" aria-label="Navegação principal">
+        <ul>
+          <li><a href="#sobre" aria-label="Sobre Lucas Torres">Sobre</a></li>
+          <li><a href="#servicos" aria-label="Serviços oferecidos">Serviços</a></li>
+          <li><a href="#projetos" aria-label="Projetos realizados">Projetos</a></li>
+          <li><a href="#contato" aria-label="Formas de contato">Contato</a></li>
+        </ul>
+      </nav>      
+    </div>
+  </header>
+
+  <!-- Conteúdo principal -->
+  <main>
+
+    <!-- Sobre mim -->
+    <section id="sobre" class="secao sobre">
+      <div class="container">
+        <h2>Sobre Mim</h2>
+        <div class="perfil">
+          <img src="lucas.jpg" alt="Foto de Lucas" class="minha-foto" width="200">
+          <div class="descricao">
+            <p>Olá! Me chamo Lucas Torres e este é o meu espaço digital.</p>
+            <p>Estou aprendendo HTML e CSS com o objetivo de criar sites funcionais e modernos.</p>
+            <p>Tenho 23 anos e estudo Análise e Desenvolvimento de Sistemas desde fevereiro de 2025.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Serviços -->
+    <section id="servicos" class="secao servicos">
+      <div class="container">
+        <h2>O que eu ofereço</h2>
+        <div class="lista-servicos">
+          <article class="servico">
+            <h3>Criação de Sites</h3>
+            <p>Desenvolvo sites básico a intermediário com HTML e CSS, além de ter design responsivo.</p>
+          </article>
+          <article class="servico">
+            <h3>Manutenção de Sites</h3>
+            <p>Atualizo conteúdos, imagens e estilo de sites já existentes.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projetos -->
+    <section id="projetos" class="secao projetos">
+      <div class="container">
+        <h2>Projetos Realizados</h2>
+        <div class="lista-projetos">
+          <article class="projeto">
+            <h3>Site desenvovildo em Aula - ADS</h3>
+            <p>Um site referente a instituição Unintese e apresentação de cursos.</p>
+            <p><strong>Tecnologias:</strong> HTML e CSS básico</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contato -->
+    <section id="contato" class="secao contato">
+      <div class="container">
+        <h2>Entre em Contato</h2>
+        <form class="formulario">
+          <label for="nome">Nome:</label>
+          <input type="text" id="nome" name="nome" placeholder="Seu nome completo">
+
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" placeholder="seu@email.com">
+
+          <label for="mensagem">Mensagem:</label>
+          <textarea id="mensagem" name="mensagem" placeholder="Como posso te ajudar?"></textarea>
+
+          <button type="submit">Enviar</button>
+        </form>
+
+        <div class="info-contato">
+          <p><strong>Email:</strong> lucas.torres1361@gmail.com</p>
+          <p><strong>Telefone:</strong> (81) 99800-3492</p>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Rodapé -->
+  <footer class="rodape">
+    <div class="container">
+      <p>&copy; 2025 Lucas Torres. Todos os direitos reservados.</p>
+      <p class="creditos">Desenvolvido com 💻 e dedicação por Lucas - Estudante de ADS</p>
+    </div>
+  </footer>
+
+</body>
+</html>
