@@ -1,0 +1,118 @@
+/* Estilos básicos */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Estilo para a foto do Lucas */
+.minha-foto {
+    border: 5px solid #4CAF50;
+    border-radius: 50%;
+    margin: 20px auto;
+    display: block;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+/* Cabeçalho */
+.cabecalho {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.cabecalho h1 {
+    margin: 0;
+}
+
+.menu {
+    margin-top: 15px;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.menu a:hover {
+    text-decoration: underline;
+}
+
+/* Seções */
+.secao {
+    padding: 20px;
+    margin: 20px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.secao h2 {
+    color: #4CAF50;
+    border-bottom: 2px solid #4CAF50;
+    padding-bottom: 10px;
+}
+
+/* Serviços e Projetos */
+.servico, .projeto {
+    margin-bottom: 20px;
+    padding: 15px;
+    background-color: #f9f9f9;
+    border-left: 4px solid #4CAF50;
+}
+
+/* Formulário */
+form {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+form div {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+textarea {
+    height: 100px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+/* Rodapé */
+.rodape {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+}
